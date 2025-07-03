@@ -1,4 +1,3 @@
-// Request logging middleware
 const requestLogger = (req, res, next) => {
   // Only log in non-test environments
   if (process.env.NODE_ENV !== "test") {
