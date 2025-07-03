@@ -99,7 +99,7 @@ Content-Type: application/json
 {
   "email": "user@example.com",
   "password": "password123",
-  "name": "John Doe" // optional
+  "name": "User" // optional
 }
 ```
 
@@ -112,7 +112,7 @@ Content-Type: application/json
   "user": {
     "id": "user-uuid",
     "email": "user@example.com",
-    "name": "John Doe",
+    "name": "User",
     "createdAt": "2023-01-01T00:00:00.000Z"
   }
 }
@@ -139,7 +139,7 @@ Content-Type: application/json
   "user": {
     "id": "user-uuid",
     "email": "user@example.com",
-    "name": "John Doe",
+    "name": "User",
     "createdAt": "2023-01-01T00:00:00.000Z"
   }
 }
@@ -209,7 +209,7 @@ Content-Type: application/json
   "title": "Book Title",
   "author": "Author Name",
   "genre": "Genre",
-  "publishedYear": 2023
+  "publishedYear": 2025
 }
 ```
 
